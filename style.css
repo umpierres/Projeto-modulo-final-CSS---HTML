@@ -1,12 +1,75 @@
 body {
     display: flex;
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
 }
 
-nav {
-    background-color: red;
-    flex-direction: column;
+header {
+    background-color: #BFBDC1;
+    height: 100vh;
+    padding:  0px 40px;
+    margin-right: 50px;
+    text-align: center;
 }
 
 main {
-    background-color: blue;
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+    padding: 0px;
+}
+
+.meio {
+    margin: 0;
+    position: relative;             
+     top: 22%; 
+}
+
+
+.email a{
+    color: blue;
+}
+
+.telefone a {
+    color: red;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.icones img {
+    width: 60px;
+}
+
+.perfil {
+    border-radius: 200px;
+    border: 5px solid black;
+}
+
+.perfil img{
+    border-radius: 200px;
+    width: 300px;
+}
+
+.descricao p{
+    margin: 70px 0;
 }
