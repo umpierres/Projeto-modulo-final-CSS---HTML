@@ -116,6 +116,7 @@ p {
 }
 
 .lista-objetivos li{
+    list-style: circle;
     margin: 30px 0;
     font-size: 30px;
 }
