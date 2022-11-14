@@ -47,7 +47,7 @@ p {
     font-size: 16px;
 }
 
-#nome {
+.titulo {
     color: #800080;
 }
 
@@ -98,4 +98,24 @@ p {
 .descricao {
     margin: 70px 50px 70px 0;
     text-align: justify;
+}
+
+.lista-conhecimentos li {
+    margin: 30px 0;
+    list-style: lower-latin;
+    font-size: 30px;
+}
+
+.lista-conhecimentos img {
+    width: 50px;
+    margin: 0 5px -10px 0 ;
+}
+
+.lista-conhecimentos {
+    margin: 0 40px;
+}
+
+.lista-objetivos li{
+    margin: 30px 0;
+    font-size: 30px;
 }
