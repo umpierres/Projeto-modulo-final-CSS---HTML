@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+
+nav {
+    background-color: red;
+    flex-direction: column;
+}
+
+main {
+    background-color: blue;
+}
