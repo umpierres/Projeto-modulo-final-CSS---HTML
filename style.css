@@ -24,10 +24,14 @@ header {
     padding:  0px 60px;
     margin-right: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 main {
-    margin-top: 270px;
+    margin-top: 17%;
 }
 
 h1 {
@@ -56,9 +60,9 @@ p {
     color: #800080;
 }
 
-.middle {
-    position: relative;             
-     top: 25%; 
+.menu {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu li{
