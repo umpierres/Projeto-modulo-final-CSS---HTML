@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,11 +31,11 @@ main {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 8rem;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 a {
@@ -40,12 +44,12 @@ a {
 }
 
 ul, ol {
-    font-size: 20px;
+    font-size: 2rem;
     list-style: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .title {
@@ -74,7 +78,7 @@ p {
 
 .icon {
     display: flex;
-    width: 20%;
+    width: 20vw;
     justify-content: space-between;
 }
 
@@ -103,7 +107,7 @@ p {
 
 .knowledge-list li {
     margin: 30px 0;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .knowledge-list img {
@@ -117,5 +121,5 @@ p {
 
 .objective-list li{
     margin: 30px 0;
-    font-size: 30px;
+    font-size: 3rem;
 }
