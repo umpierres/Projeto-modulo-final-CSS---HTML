@@ -25,13 +25,14 @@ header {
     margin-right: 50px;
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: center;
 }
 
 main {
-    margin-top: 17%;
+    margin-top: 15%;
 }
 
 h1 {
