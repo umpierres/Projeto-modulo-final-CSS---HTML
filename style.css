@@ -48,9 +48,6 @@ a {
     color: black;
 }
 
-a:hover {
-    text-decoration:underline #800080;
-}
 
 ul, ol {
     font-size: 2rem;
@@ -58,6 +55,11 @@ ul, ol {
 
 p {
     font-size: 1.6rem;
+}
+
+a:hover {
+    text-decoration:underline #800080;
+    font-size: 25px;
 }
 
 .title {
