@@ -47,6 +47,10 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration:underline #800080;
+}
+
 ul, ol {
     font-size: 2rem;
     list-style: none;
